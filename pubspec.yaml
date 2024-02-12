@@ -1,0 +1,100 @@
+name: untitled2
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #service
+  dio: ^5.4.0
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.2.1
+
+  #map package
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.5.3
+
+  #state manegement
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # local database:
+  shared_preferences: ^2.2.1
+  sqlite3: ^2.3.0
+  sqlite_wrapper: ^0.1.2
+  sqlite3_flutter_libs: ^0.5.20
+
+  #helper package
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.7
+  flutter_native_splash: ^2.3.10
+  flutter_phone_direct_caller: ^2.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/svg/bold/
+    - assets/svg/greenish/
+    - assets/translations/
+    - assets/svg/auth_svg/
+    - assets/svg/broken/
+    - assets/svg/bulk/
+    - assets/svg/curved/
+    - assets/svg/lightBorder/
+    - assets/svg/lightOutline/
+    - assets/svg/twoTone/
+    - assets/svg/others/
+    - assets/images/
+    - assets/fonts/
+    - assets/lottie/
+    - assets/styles/
+    - assets/places/
+    - assets/svg/additional_icons/
+    - assets/images/fake_images/
+    - assets/images/map_types/
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist/Urbanist-Black.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-BlackItalic.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-Bold.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-BoldItalic.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-Italic.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-Medium.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-MediumItalic.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-Regular.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-SemiBold.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-SemiBoldItalic.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-Thin.ttf
+        - asset: assets/fonts/Urbanist/Urbanist-ThinItalic.ttf
+          style: italic
+    - family: Chakra
+      fonts:
+        - asset: assets/fonts/Chakra/ChakraPetch-Bold.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-BoldItalic.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-Italic.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-Light.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-LightItalic.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-Medium.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-MediumItalic.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-Regular.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-SemiBold.ttf
+        - asset: assets/fonts/Chakra/ChakraPetch-SemiBoldItalic.ttf
+          style: italic
