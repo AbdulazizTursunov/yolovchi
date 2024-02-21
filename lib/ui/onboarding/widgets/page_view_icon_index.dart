@@ -22,7 +22,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            gradient: AppColors.gradientYellow,
+            color : AppColors.c0xffd2af84,
             borderRadius: BorderRadius.circular(100),
           ),
         )
@@ -30,7 +30,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 8.w,
           decoration: BoxDecoration(
-            color: AppColors.c_300,
+            color: AppColors.black,
             borderRadius: BorderRadius.circular(100),
           ),
         ),
@@ -40,7 +40,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            gradient: AppColors.gradientYellow,
+            color: AppColors.c0xffd2af84,
             borderRadius: BorderRadius.circular(100.r),
           ),
         )
@@ -48,7 +48,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 8.w,
           decoration: BoxDecoration(
-            color: AppColors.c_300,
+            color: AppColors.black,
             borderRadius: BorderRadius.circular(100.r),
           ),
         ),
@@ -58,7 +58,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            gradient: AppColors.gradientYellow,
+            color: AppColors.c0xffd2af84,
             borderRadius: BorderRadius.circular(100.r),
           ),
         )
@@ -66,7 +66,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 8.w,
           decoration: BoxDecoration(
-            color: AppColors.c_300,
+            color: AppColors.black,
             borderRadius: BorderRadius.circular(100.r),
           ),
         ),
