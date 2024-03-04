@@ -1,6 +1,6 @@
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:untitled2/utils/colors/app_colors.dart';
 
-import '../../../utils/app_colors.dart';
 import '../../view.dart';
 
 class PageIndexItem extends StatelessWidget {
@@ -22,7 +22,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            color : AppColors.c0xffd2af84,
+            color : AppColors.green,
             borderRadius: BorderRadius.circular(100),
           ),
         )
@@ -40,7 +40,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            color: AppColors.c0xffd2af84,
+            color: AppColors.green,
             borderRadius: BorderRadius.circular(100.r),
           ),
         )
@@ -58,7 +58,7 @@ class PageIndexItem extends StatelessWidget {
           height: 8.w,
           width: 32.w,
           decoration: BoxDecoration(
-            color: AppColors.c0xffd2af84,
+            color: AppColors.green,
             borderRadius: BorderRadius.circular(100.r),
           ),
         )

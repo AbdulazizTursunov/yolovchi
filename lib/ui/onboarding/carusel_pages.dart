@@ -1,6 +1,10 @@
 import 'package:flutter/services.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:untitled2/data/storage_repository/storage_repository.dart';
+import 'package:untitled2/ui/app_routes.dart';
 import 'package:untitled2/ui/onboarding/widgets/page_view_icon_index.dart';
 import 'package:untitled2/ui/onboarding/widgets/page_view_items.dart';
+import 'package:untitled2/utils/get_theme.dart';
 
 import '../view.dart';
 import '../widgets/global_button.dart';
