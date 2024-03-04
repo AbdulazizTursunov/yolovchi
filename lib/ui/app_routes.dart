@@ -3,6 +3,7 @@ import 'package:untitled2/ui/auth/lets_in/lets_in_screen.dart';
 import 'package:untitled2/ui/auth/login/login_screen.dart';
 import 'package:untitled2/ui/auth/register/register_screen.dart';
 import 'package:untitled2/ui/bottom_nav_bar.dart';
+import 'package:untitled2/ui/splash/splash_screen.dart';
 
 class RouteNames {
   static const String splashScreen = "/";
@@ -67,10 +68,10 @@ class AppRoutes {
         return MaterialPageRoute(
           builder: (context) => const BottomNavBar(),
         );
-      // case RouteNames.splashScreen:
-      //   return MaterialPageRoute(
-      //     builder: (context) => const SplashScreen(),
-      //   );
+      case RouteNames.splashScreen:
+        return MaterialPageRoute(
+          builder: (context) =>  const SplashScreen(),
+        );
       // case RouteNames.requestScreen:
       //   return MaterialPageRoute(
       //     builder: (context) => const RequestScreen(),

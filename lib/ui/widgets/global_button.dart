@@ -25,7 +25,6 @@ class GlobalButton extends StatelessWidget {
   });
 
   final Color color;
-
   final Color textColor;
   final String title;
   final double radius;
