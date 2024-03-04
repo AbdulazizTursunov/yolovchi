@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'app_colors.dart';
+import 'package:untitled2/utils/colors/app_colors.dart';
 
 
 class AppTheme{
   static ThemeData lightTheme=ThemeData(
       scaffoldBackgroundColor: AppColors.white,
-      appBarTheme:  AppBarTheme(
+      appBarTheme:  const AppBarTheme(
           elevation: 0,
           backgroundColor: AppColors.white,
           titleTextStyle: TextStyle(
@@ -18,7 +18,7 @@ class AppTheme{
               statusBarIconBrightness: Brightness.dark
           )
       ),
-      textTheme:  TextTheme(
+      textTheme:  const TextTheme(
         //display
           displayLarge: TextStyle(
               color: AppColors.black,
@@ -120,7 +120,7 @@ class AppTheme{
 
   static ThemeData darkTheme=ThemeData(
       scaffoldBackgroundColor: AppColors.black,
-      appBarTheme:  AppBarTheme(
+      appBarTheme:  const AppBarTheme(
           backgroundColor: AppColors.black,
           systemOverlayStyle: SystemUiOverlayStyle(
               statusBarColor: AppColors.black,
@@ -128,7 +128,7 @@ class AppTheme{
               statusBarIconBrightness: Brightness.light
           )
       ),
-      textTheme:  TextTheme(
+      textTheme:  const TextTheme(
         //display
           displayLarge: TextStyle(
               color: AppColors.white,
